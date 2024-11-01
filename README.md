@@ -5,7 +5,7 @@ The exercise was conducted in colab and the yolov5 model was imported through gi
 
 ## Required libraries
 
-All the required libraries have been included in the [requirements.txt](requirements.txt) file.
+All the required libraries have been included in the requirements.txt.file.
 
 * PyTorch (torch)
 * Torchvision (torchvision)
