@@ -6,6 +6,17 @@ The exercise was conducted in colab and the yolov5 model was imported through gi
 ## Dataset
 The Roboflow dataset was used. To download the dataset, simply set the model you intend to train. The dataset structure is organized into images/labels. To build a custom dataset, you need to modify the data.yaml file to update the path, the number of classes, and the class names.
 
+## Usage
+Use bash terminal or Powershell or Command Prompt
+
+For training
+Change the training configuration (Epochs, Batch Size, Crop Size, Upscale Factor) in the script.
+
+python train.py
+
+For testing
+Change the testing configuration (Upscale Factor & Trained Model path) in the script.
+
 ## Required libraries
 
 All the required libraries have been included in the requirements.txt.file.
