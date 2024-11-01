@@ -9,12 +9,12 @@ The Roboflow dataset was used. To download the dataset, simply set the model you
 ## Usage
 Use bash terminal or Powershell or Command Prompt
 
-For training
+### For training
 Change the training configuration (Epochs, Batch Size, Crop Size, Upscale Factor) in the script.
 
 python train.py
 
-For testing
+### For testing
 Change the testing configuration (Upscale Factor & Trained Model path) in the script.
 
 ## Required libraries
